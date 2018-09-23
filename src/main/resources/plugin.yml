@@ -1,0 +1,13 @@
+name: FixWhitelist
+main: com.github.wulf.FixWhitelist
+version: 1.0
+api-version: 1.13
+commands:
+   whitelistol:
+      description: add offline whitelist
+      permission: fixwhitelist.handle
+      usage: /whitelistol
+   permissions:   
+    fixwhitelist.handle:
+     description:
+     default: op
